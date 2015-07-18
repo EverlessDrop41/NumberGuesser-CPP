@@ -6,7 +6,7 @@ public class Guesser {
 public:
 	Guesser Guesser (int numberToGuess);
 	int ValToGuess;
-	int Guesses;
+	int Guesses = 0;
 	GuessType MakeGuess(int val);
 }
 #endif

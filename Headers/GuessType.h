@@ -2,8 +2,8 @@
 #define GUESSTYPE
 enum GuessType
 {
-	correct,
-	high,
-	low
+	Correct,
+	High,
+	Low
 };
 #endif
